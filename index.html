@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Luis </title>
+        <meta charset="utf-8"/> <!--unicode, pour pouvoir mettre des accents-->
+        <meta name="viewport" content="width-device-width, inital-scale=1"> <!--pour permetre notre site d'être responsive-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> <!--On prend une sous-catégorie de Lato, version 2014-->
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header"> <!--bouton pour le mobile-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span><!--les trois lignes-->
+                        <span class="icon-bar"></span><!--les trois lignes-->
+                        <span class="icon-bar"></span><!--les trois lignes-->
+                    </button>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#portfolio">Affiliations</a></li>
+                            <li><a href="#papers">Papers</a></li>
+                            <li><a href="#contacts">Contact</a></li> <!--ajouté lors de l'intégration du formulaire de contact fait en php et jquery-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="about" class="container-fluid">
+            <div class="col-xs-8 col-md-4 profile-picture">
+                <img src="images/luis_150x200.png" alt="Luis" class="img-circle">
+            </div>
+            <div class="heading">
+                <h1>Luis Antonio de Santa-Eulalia</h1>
+                <h3>Associate Professor</h3>
+                <h3><a href="https://www.usherbrooke.ca/ecole-gestion/" style="color: aliceblue;">École de Gestion, Université de Sherbrooke</a></h3>
+                <a href="https://scholar.google.ca/citations?user=BGdZ0z8AAAAJ&hl=fr" class="button1">Publications</a>
+            </div>
+
+        </section>
+        <section id="skills">
+            <div class="red-divider"></div> <!--c'est à nous de la créer-->
+            <div class="heading">
+                <h2>Skills</h2>
+            </div>
+            <div class="container">
+                <div class="row"></div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                <h5>Design Science Research 85%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <h5>Case Study Methodology 60%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                <h5>Action Research Methodology 50%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <h5>Operations and Supply Chain Management 80%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <h5>Industry 4.0 and Digital Transformation 70%</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <h5>Simulation Modelling 70%</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="experience">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Experience</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Université de Sherbrooke</h3>
+                                    <h4>Associante Professor</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2013 - ongoing</p>
+                                    <div class="time-line-body">
+                                        <p>Department of Information Systems and Quantitative Methods</p>
+                                        <p>Resarcher of IntelliLab</p>
+                                        <p>Researcher of Createch Research Center</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Unicamp</h3>
+                                    <h4>Assistant Professor</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2012 - 2013</p>
+                                    <div class="time-line-body">
+                                        <p>Faculty of Applied Sciences</p>
+                                        <p>Researcher from the LEGOSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>TÉLUQ</h3>
+                                    <h4>Assistant Professor</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2009 - 2012</p>
+                                    <div class="time-line-body">
+                                        <p>School pf Administrative Sciences</p>
+                                        <p>GEOD Research Group</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+            <div class="red-divider"></div> <!--c'est à nous de la créer-->
+            <div class="heading">
+                <h2>Education</h2>
+            </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="education-block">
+                            <h5>2009</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>Université Laval</h3>
+                            <h4>PhD in Industrial Engineering</h4>
+                            <div class="red-divider"></div>
+                            <p>Modelling and Simulation</p>
+                            <p>Supply Chain Planning</p>
+                            <p>Forest Products Industry</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="education-block">
+                            <h5>2001</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>Universidade de São Paulo</h3>
+                            <h4>MSc in Industrial Engineering</h4>
+                            <div class="red-divider"></div>
+                            <p>Demand Management</p>
+                            <p>Production Planning and Control</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="education-block">
+                            <h5>1998</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>Universidade Federal <br> de São Carlos</h3>
+                            <h4>BSc in Industrial Engineering</h4>
+                            <div class="red-divider"></div>
+                            <p>Product Developpement Process Management</p>
+                            <p>Member of the PET</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container-fluid">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Research Affiliations</h2>
+                </div>
+                <div class="row"> <!--à partir de sm ça devient 3 colones-->
+                    <div class="col-sm-4">   
+                        <a class="thumbnail" href="https://centrecreatech.recherche.usherbrooke.ca/" target="_blank">
+                            <img src="images/CentreCreatech.png" alt="Centre Createch">
+                        </a>
+                    </div> 
+                    <div class="col-sm-4">                        
+                        <a class="thumbnail" href="http://www.intellilab.org/" target="_blank">
+                            <img src="images/IntelliLab.png" alt="IntelliLab">
+                        </a>
+                    </div> 
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="https://supplychain4.org/" target="_blank">
+                            <img src="images/SupplyChain4.png" alt="Supply Chain 4.0">
+                        </a>
+                    </div> 
+                </div>
+                <!--nous avons 2 lignes, avec 3 colones chaque-->
+                <div class="row"> <!--à partir de sm ça devient 3 colones-->
+                    <div class="col-sm-4">   
+                        <a class="thumbnail" href="https://www.reseauinnovation4network.com/" target="_blank">
+                            <img src="images/ReseauInnovation4.png" alt="Réseau Innovation 4.0 Network">
+                        </a>
+                    </div> 
+                    <div class="col-sm-4">                        
+                        <a class="thumbnail" href="https://corom.ca/en/" target="_blank">
+                            <img src="images/Corom.png" alt="CoRom">
+                        </a>
+                    </div> 
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="https://www.forac.ulaval.ca/" target="_blank">
+                            <img src="images/Forac.png" alt="FORAC">
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="papers">
+            <div class="container">
+                <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Selected Papers</h2>
+                </div>
+                <div id="myCarousel" class="carousel slide text-center" data-ride="caroursel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox"> <!--role=listbox pour le malvoyants-->
+                        <div class="item active">
+                            <h3>"Simulation in industry 4.0: A state-of-the-art review"</h3>
+                            <h4>Computers & Industrial Engineering</h4>
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360835220305635">Access</a>
+                        </div>
+                        <div class="item">
+                            <h3>"Business intelligence and analytics value creation in Industry 4.0: a multiple case study in manufacturing medium enterprises"</h3>
+                            <h4>Production Planning & Control</h4>
+                            <a href="https://www.tandfonline.com/doi/abs/10.1080/09537287.2019.1631458">Access</a>
+                        </div>
+                        <div class="item">
+                            <h3>"Translating value stream maps into system dynamics models: a practical framework"</h3>
+                            <h4>The International Journal of Advanced Manufacturing Technology</h4>
+                            <a href="https://link.springer.com/article/10.1007/s00170-021-07053-y">Access</a>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a> <!--pour créer le bouton for faire avancer vers ;la gauche-->
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a> <!--pour créer le bouton for faire avancer vers ;la droite-->
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <body>
+                <div class="container">
+                    <div class="white-divider"></div>
+                    <div class="heading">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="row">
+                        <div>
+                        <form id="contact-form" method="post" action="" role="form"> <!--Ce php ici prend l'adresse url de la page visitée. La balise htmlspecialchars est utilisé pour sécuriser le serveure contre un code intrus/hacker-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="firstname">First name *</label>
+                                    <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom" value="">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name">Last name *</label>
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" value="">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email">Email *</label>
+                                    <input type="text" id="email" name="email" class="form-control" placeholder="Votre Email" value="">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Votre téléphone" value="">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message *</label>
+                                    <textarea name="message" id="message" rows="4" class="form-control" placeholder="Votre message"></textarea> 
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                   <p><strong>* Required information</strong></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <input class="button1" type="submit" value="Envoyer">
+                                </div>
+                            </div>
+                            
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </body>        
+        </section>
+        <footer class="text-center">
+            <a href="#about">
+                <span class="glyphicon glyphicon-chevron-up"></span>                
+            </a>
+            <h5>Copyright 2021 LASE</h5>
+        </footer>
+    </body>
+
+</html>
